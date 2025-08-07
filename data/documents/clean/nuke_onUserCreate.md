@@ -1,0 +1,2 @@
+# nuke.onUserCreate
+nuke.onUserCreate()

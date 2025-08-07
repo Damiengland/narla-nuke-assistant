@@ -1,0 +1,2 @@
+# nukescripts.isSceneBrowserFilename
+nukescripts.isSceneBrowserFilename(_filename_)

@@ -1,0 +1,27 @@
+name: rag-nuke
+channels:
+  - defaults
+  - conda-forge # A good channel for a wide range of packages
+dependencies:
+  # Core Python and Jupyter environment
+  - python=3.10.10
+  - jupyterlab
+
+  # Data handling and scientific computing
+  - numpy
+  - scikit-learn
+
+  # Visualization
+  - plotly
+
+  # Pip for packages not in the default conda channels or for specific versions
+  - pip
+  - pip:
+    - langchain
+    - langchain-community
+    - langchain-openai
+    - langchain-chroma
+    - chromadb # Chroma vector store, often a peer dependency for langchain-chroma
+    - python-dotenv # For loading environment variables from a .env file
+    - gradio # For creating the web UI
+    - html2text

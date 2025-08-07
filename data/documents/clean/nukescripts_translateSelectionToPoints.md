@@ -1,0 +1,2 @@
+# nukescripts.translateSelectionToPoints
+nukescripts.translateSelectionToPoints(_nodeToSnap_ , _vertexSelection_)

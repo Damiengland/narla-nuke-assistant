@@ -1,0 +1,2 @@
+# nukescripts.update_plugin_menu
+nukescripts.update_plugin_menu(_menuname_)

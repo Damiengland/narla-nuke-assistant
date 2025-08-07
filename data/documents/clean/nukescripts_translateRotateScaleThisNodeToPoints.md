@@ -1,0 +1,2 @@
+# nukescripts.translateRotateScaleThisNodeToPoints
+nukescripts.translateRotateScaleThisNodeToPoints()

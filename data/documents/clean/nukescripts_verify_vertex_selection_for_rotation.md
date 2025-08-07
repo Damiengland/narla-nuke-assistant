@@ -1,0 +1,4 @@
+# nukescripts.verify_vertex_selection_for_rotation
+nukescripts.verify_vertex_selection_for_rotation(_vertex_selection_)
+
+GeoSelection should have at least 3 selected vertices for rotation

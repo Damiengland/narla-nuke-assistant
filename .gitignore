@@ -1,0 +1,16 @@
+*.ipynb_checkpoints
+*.virtual_documents
+vector_db
+# Environment variables
+.env
+*.env
+__pycache__/
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+.vscode/
+.idea/
+# OS-specific files
+.DS_Store

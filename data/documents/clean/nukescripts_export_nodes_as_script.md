@@ -1,0 +1,2 @@
+# nukescripts.export_nodes_as_script
+nukescripts.export_nodes_as_script()

@@ -1,0 +1,2 @@
+# nukescripts.snap3d.translateRotateScaleSelectionToPoints
+nukescripts.snap3d.translateRotateScaleSelectionToPoints(_nodeToSnap_ , _vertexSelection_)

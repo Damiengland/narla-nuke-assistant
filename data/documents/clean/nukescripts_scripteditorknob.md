@@ -1,0 +1,4 @@
+# nukescripts.scripteditorknob
+Functions ---
+
+Classes ---   Initialize self.  Initialize self.  Initialize self.   __init__(self, parent: Optional[PySide6.QtWidgets.QWidget] = None) -> None __init__(self, text: str, parent: Optional[PySide6.QtWidgets.QWidget] = None) -> None  __init__(self, arg__1: PySide6.QtCore.Qt.Orientation, parent: Optional[PySide6.QtWidgets.QWidget] = None) -> None __init__(self, parent: Optional[PySide6.QtWidgets.QWidget] = None) -> None  __init__(self) -> None __init__(self, parent: PySide6.QtWidgets.QWidget) -> None  __init__(self, parent: Optional[PySide6.QtWidgets.QWidget] = None, f: PySide6.QtCore.Qt.WindowType = Default(Qt.WindowFlags)) -> None   Initialize self.   Initialize self.  Text I/O implementation using an in-memory buffer.

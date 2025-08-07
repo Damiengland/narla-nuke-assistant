@@ -1,0 +1,2 @@
+# nukescripts.create_viewsplitjoin
+nukescripts.create_viewsplitjoin()

@@ -1,0 +1,5 @@
+# nukescripts.toggle
+nukescripts.toggle(_knob_)
+
+“Inverts” some flags on the selected nodes.
+What this really does is set all of them to the same value, by finding the majority value and using the inverse of that.

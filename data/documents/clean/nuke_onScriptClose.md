@@ -1,0 +1,2 @@
+# nuke.onScriptClose
+nuke.onScriptClose()

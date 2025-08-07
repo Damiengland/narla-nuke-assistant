@@ -1,0 +1,2 @@
+# nuke.beforeFrameRender
+nuke.beforeFrameRender()

@@ -1,0 +1,2 @@
+# nukescripts.snap3d.translatePivotToPointsVerified
+nukescripts.snap3d.translatePivotToPointsVerified(_nodeToSnap_ , _vertexSelection_)

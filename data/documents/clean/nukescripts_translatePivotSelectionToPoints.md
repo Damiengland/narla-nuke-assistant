@@ -1,0 +1,2 @@
+# nukescripts.translatePivotSelectionToPoints
+nukescripts.translatePivotSelectionToPoints(_nodeToSnap_ , _vertexSelection_)

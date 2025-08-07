@@ -1,0 +1,2 @@
+# nukescripts.translateRotateScaleToPointsVerified
+nukescripts.translateRotateScaleToPointsVerified(_nodeToSnap_ , _vertexSelection_)

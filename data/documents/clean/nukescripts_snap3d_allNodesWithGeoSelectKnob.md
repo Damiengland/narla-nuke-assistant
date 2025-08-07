@@ -1,0 +1,2 @@
+# nukescripts.snap3d.allNodesWithGeoSelectKnob
+nukescripts.snap3d.allNodesWithGeoSelectKnob()

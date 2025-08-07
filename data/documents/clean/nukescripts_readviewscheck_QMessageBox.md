@@ -1,0 +1,1352 @@
+# nukescripts.readviewscheck.QMessageBox
+_class _nukescripts.readviewscheck.QMessageBox(_self_ , _icon : PySide6.QtWidgets.QMessageBox.Icon_, _title : str_, _text : str_, _buttons : PySide6.QtWidgets.QMessageBox.StandardButton = Instance(QMessageBox.StandardButton.NoButton)_, _parent : Optional] = None_, _flags : = Instance(Qt.Dialog  Qt.MSWindowsFixedSizeDialogHint)_)  None
+_class _nukescripts.readviewscheck.QMessageBox(_self_ , _parent : Optional] = None_)  None
+
+Bases:
+__init__(self, icon: PySide6.QtWidgets.QMessageBox.Icon, title: str, text: str, buttons: PySide6.QtWidgets.QMessageBox.StandardButton = Instance(QMessageBox.StandardButton.NoButton), parent: Optional[PySide6.QtWidgets.QWidget] = None, flags: PySide6.QtCore.Qt.WindowType = Instance(Qt.Dialog  Qt.MSWindowsFixedSizeDialogHint)) -> None __init__(self, parent: Optional[PySide6.QtWidgets.QWidget] = None) -> None
+Initialize self. See help(type(self)) for accurate signature.
+Methods
+`about` ---
+`aboutQt`
+`accept`
+`acceptDrops`
+`accessibleDescription`
+`accessibleName`
+`actionEvent`
+`actions`
+`activateWindow`
+`addAction`
+`addActions`
+`addButton`
+`adjustPosition`
+`adjustSize`
+`autoFillBackground`
+`backgroundRole`
+`backingStore`
+`baseSize`
+`blockSignals`
+`button`
+`buttonRole`
+`buttonText`
+`buttons`
+`changeEvent`
+`checkBox`
+`childAt`
+`childEvent`
+`children`
+`childrenRect`
+`childrenRegion`
+`clearFocus`
+`clearMask`
+`clickedButton`
+`close`
+`closeEvent`
+`colorCount`
+`connect`
+`connectNotify`
+`contentsMargins`
+`contentsRect`
+`contextMenuEvent`
+`contextMenuPolicy`
+`create`
+`createWinId`
+`createWindowContainer`
+`critical`
+`cursor`
+`customEvent`
+`defaultButton`
+`deleteLater`
+`depth`
+`destroy`
+`detailedText`
+`devType`
+`devicePixelRatio`
+`devicePixelRatioF`
+`devicePixelRatioFScale`
+`disconnect`
+`disconnectNotify`
+`done`
+`dragEnterEvent`
+`dragLeaveEvent`
+`dragMoveEvent`
+`dropEvent`
+`dumpObjectInfo`
+`dumpObjectTree`
+`dynamicPropertyNames`
+`effectiveWinId`
+`emit`
+`ensurePolished`
+`enterEvent`
+`escapeButton`
+`event`
+`eventFilter`
+`exec`
+`exec_`
+`find`
+`findChild`
+`findChildren`
+`focusInEvent`
+`focusNextChild`
+`focusNextPrevChild`
+`focusOutEvent`
+`focusPolicy`
+`focusPreviousChild`
+`focusProxy`
+`focusWidget`
+`font`
+`fontInfo`
+`fontMetrics`
+`foregroundRole`
+`frameGeometry`
+`frameSize`
+`geometry`
+`grab`
+`grabGesture`
+`grabKeyboard`
+`grabMouse`
+`grabShortcut`
+`graphicsEffect`
+`graphicsProxyWidget`
+`hasFocus`
+`hasHeightForWidth`
+`hasMouseTracking`
+`hasTabletTracking`
+`height`
+`heightForWidth`
+`heightMM`
+`hide`
+`hideEvent`
+`icon`
+`iconPixmap`
+`information`
+`informativeText`
+`inherits`
+`initPainter`
+`inputMethodEvent`
+`inputMethodHints`
+`inputMethodQuery`
+`insertAction`
+`insertActions`
+`installEventFilter`
+`internalWinId`
+`isActiveWindow`
+`isAncestorOf`
+`isEnabled`
+`isEnabledTo`
+`isFullScreen`
+`isHidden`
+`isLeftToRight`
+`isMaximized`
+`isMinimized`
+`isModal`
+`isQuickItemType`
+`isRightToLeft`
+`isSignalConnected`
+`isSizeGripEnabled`
+`isTopLevel`
+`isVisible`
+`isVisibleTo`
+`isWidgetType`
+`isWindow`
+`isWindowModified`
+`isWindowType`
+`keyPressEvent`
+`keyReleaseEvent`
+`keyboardGrabber`
+`killTimer`
+`layout`
+`layoutDirection`
+`leaveEvent`
+`locale`
+`logicalDpiX`
+`logicalDpiY`
+`lower`
+`mapFrom`
+`mapFromGlobal`
+`mapFromParent`
+`mapTo`
+`mapToGlobal`
+`mapToParent`
+`mask`
+`maximumHeight`
+`maximumSize`
+`maximumWidth`
+`metaObject`
+`metric`
+`minimumHeight`
+`minimumSize`
+`minimumSizeHint`
+`minimumWidth`
+`mouseDoubleClickEvent`
+`mouseGrabber`
+`mouseMoveEvent`
+`mousePressEvent`
+`mouseReleaseEvent`
+`move`
+`moveEvent`
+`moveToThread`
+`nativeEvent`
+`nativeParentWidget`
+`nextInFocusChain`
+`normalGeometry`
+`objectName`
+`open`
+`overrideWindowFlags`
+`overrideWindowState`
+`paintEngine`
+`paintEvent`
+`paintingActive`
+`palette`
+`parent`
+`parentWidget`
+`physicalDpiX`
+`physicalDpiY`
+`pos`
+`previousInFocusChain`
+`property`
+`question`
+`raise_`
+`receivers`
+`rect`
+`redirected`
+`reject`
+`releaseKeyboard`
+`releaseMouse`
+`releaseShortcut`
+`removeAction`
+`removeButton`
+`removeEventFilter`
+`render`
+`repaint`
+`resize`
+`resizeEvent`
+`restoreGeometry`
+`result`
+`saveGeometry`
+`screen`
+`scroll`
+`sender`
+`senderSignalIndex`
+`setAcceptDrops`
+`setAccessibleDescription`
+`setAccessibleName`
+`setAttribute`
+`setAutoFillBackground`
+`setBackgroundRole`
+`setBaseSize`
+`setButtonText`
+`setCheckBox`
+`setContentsMargins`
+`setContextMenuPolicy`
+`setCursor`
+`setDefaultButton`
+`setDetailedText`
+`setDisabled`
+`setEnabled`
+`setEscapeButton`
+`setFixedHeight`
+`setFixedSize`
+`setFixedWidth`
+`setFocus`
+`setFocusPolicy`
+`setFocusProxy`
+`setFont`
+`setForegroundRole`
+`setGeometry`
+`setGraphicsEffect`
+`setHidden`
+`setIcon`
+`setIconPixmap`
+`setInformativeText`
+`setInputMethodHints`
+`setLayout`
+`setLayoutDirection`
+`setLocale`
+`setMask`
+`setMaximumHeight`
+`setMaximumSize`
+`setMaximumWidth`
+`setMinimumHeight`
+`setMinimumSize`
+`setMinimumWidth`
+`setModal`
+`setMouseTracking`
+`setObjectName`
+`setPalette`
+`setParent`
+`setProperty`
+`setResult`
+`setScreen`
+`setShortcutAutoRepeat`
+`setShortcutEnabled`
+`setSizeGripEnabled`
+`setSizeIncrement`
+`setSizePolicy`
+`setStandardButtons`
+`setStatusTip`
+`setStyle`
+`setStyleSheet`
+`setTabOrder`
+`setTabletTracking`
+`setText`
+`setTextFormat`
+`setTextInteractionFlags`
+`setToolTip`
+`setToolTipDuration`
+`setUpdatesEnabled`
+`setVisible`
+`setWhatsThis`
+`setWindowFilePath`
+`setWindowFlag`
+`setWindowFlags`
+`setWindowIcon`
+`setWindowIconText`
+`setWindowModality`
+`setWindowModified`
+`setWindowOpacity`
+`setWindowRole`
+`setWindowState`
+`setWindowTitle`
+`sharedPainter`
+`show`
+`showEvent`
+`showFullScreen`
+`showMaximized`
+`showMinimized`
+`showNormal`
+`signalsBlocked`
+`size`
+`sizeHint`
+`sizeIncrement`
+`sizePolicy`
+`stackUnder`
+`standardButton`
+`standardButtons`
+`standardIcon`
+`startTimer`
+`statusTip`
+`style`
+`styleSheet`
+`tabletEvent`
+`testAttribute`
+`text`
+`textFormat`
+`textInteractionFlags`
+`thread`
+`timerEvent`
+`toolTip`
+`toolTipDuration`
+`topLevelWidget`
+`tr`
+`underMouse`
+`ungrabGesture`
+`unsetCursor`
+`unsetLayoutDirection`
+`unsetLocale`
+`update`
+`updateGeometry`
+`updateMicroFocus`
+`updatesEnabled`
+`visibleRegion`
+`warning`
+`whatsThis`
+`wheelEvent`
+`width`
+`widthMM`
+`winId`
+`window`
+`windowFilePath`
+`windowFlags`
+`windowHandle`
+`windowIcon`
+`windowIconText`
+`windowModality`
+`windowOpacity`
+`windowRole`
+`windowState`
+`windowTitle`
+`windowType`
+`x`
+`y`
+
+Attributes
+`accepted` ---
+`buttonClicked`
+`customContextMenuRequested`
+`destroyed`
+`finished`
+`objectNameChanged`
+`painters`
+`rejected`
+`staticMetaObject`
+`windowIconChanged`
+`windowIconTextChanged`
+`windowTitleChanged`
+
+_class _ButtonRole(_value_ , _names =None_, _*_ , _module =None_, _qualname =None_, _type =None_, _start =1_, _boundary =None_)
+
+Bases: `enum.Enum`
+_class _DialogCode(_value_ , _names =None_, _*_ , _module =None_, _qualname =None_, _type =None_, _start =1_, _boundary =None_)
+
+Bases:
+__add__(_value_ , _/_)
+
+Return self+value.
+__mul__(_value_ , _/_)
+
+Return self*value.
+as_integer_ratio()
+
+Return integer ratio.
+Return a pair of integers, whose ratio is exactly equal to the original int and with a positive denominator.
+
+
+    ```python
+    >>> (10).as_integer_ratio()
+    (10, 1)
+    >>> (-10).as_integer_ratio()
+    (-10, 1)
+    >>> (0).as_integer_ratio()
+    (0, 1)
+    ```
+bit_count()
+
+Number of ones in the binary representation of the absolute value of self.
+Also known as the population count.
+
+
+    ```python
+    >>> bin(13)
+    '0b1101'
+    >>> (13).bit_count()
+    3
+    ```
+bit_length()
+
+Number of bits necessary to represent self in binary.
+
+
+    ```python
+    >>> bin(37)
+    '0b100101'
+    >>> (37).bit_length()
+    6
+    ```
+conjugate()
+
+Returns self, the complex conjugate of any int.
+denominator
+
+the denominator of a rational number in lowest terms
+from_bytes(_byteorder ='big'_, _*_ , _signed =False_)
+
+Return the integer represented by the given array of bytes.
+bytes
+
+Holds the array of bytes to convert. The argument must either support the buffer protocol or be an iterable object producing bytes. Bytes and bytearray are examples of built-in objects that support the buffer protocol.
+byteorder
+
+The byte order used to represent the integer. If byteorder is ‘big’, the most significant byte is at the beginning of the byte array. If byteorder is ‘little’, the most significant byte is at the end of the byte array. To request the native byte order of the host system, use `sys.byteorder’ as the byte order value. Default is to use ‘big’.
+signed
+
+Indicates whether two’s complement is used to represent the integer.
+imag
+
+the imaginary part of a complex number
+numerator
+
+the numerator of a rational number in lowest terms
+real
+
+the real part of a complex number
+to_bytes(_length =1_, _byteorder ='big'_, _*_ , _signed =False_)
+
+Return an array of bytes representing an integer.
+length
+
+Length of bytes object to use. An OverflowError is raised if the integer is not representable with the given number of bytes. Default is length 1.
+byteorder
+
+The byte order used to represent the integer. If byteorder is ‘big’, the most significant byte is at the beginning of the byte array. If byteorder is ‘little’, the most significant byte is at the end of the byte array. To request the native byte order of the host system, use `sys.byteorder’ as the byte order value. Default is to use ‘big’.
+signed
+
+Determines whether two’s complement is used to represent the integer. If signed is False and a negative integer is given, an OverflowError is raised.
+_class _Icon(_value_ , _names =None_, _*_ , _module =None_, _qualname =None_, _type =None_, _start =1_, _boundary =None_)
+
+Bases: `enum.Enum`
+_class _PaintDeviceMetric(_value_ , _names =None_, _*_ , _module =None_, _qualname =None_, _type =None_, _start =1_, _boundary =None_)
+
+Bases: `enum.Enum`
+_class _RenderFlag(_value_ , _names =None_, _*_ , _module =None_, _qualname =None_, _type =None_, _start =1_, _boundary =None_)
+
+Bases: `enum.Flag`
+_class _StandardButton(_value_ , _names =None_, _*_ , _module =None_, _qualname =None_, _type =None_, _start =1_, _boundary =None_)
+
+Bases: `enum.IntFlag`
+__add__(_value_ , _/_)
+
+Return self+value.
+__mul__(_value_ , _/_)
+
+Return self*value.
+as_integer_ratio()
+
+Return integer ratio.
+Return a pair of integers, whose ratio is exactly equal to the original int and with a positive denominator.
+
+
+    ```python
+    >>> (10).as_integer_ratio()
+    (10, 1)
+    >>> (-10).as_integer_ratio()
+    (-10, 1)
+    >>> (0).as_integer_ratio()
+    (0, 1)
+    ```
+bit_count()
+
+Number of ones in the binary representation of the absolute value of self.
+Also known as the population count.
+
+
+    ```python
+    >>> bin(13)
+    '0b1101'
+    >>> (13).bit_count()
+    3
+    ```
+bit_length()
+
+Number of bits necessary to represent self in binary.
+
+
+    ```python
+    >>> bin(37)
+    '0b100101'
+    >>> (37).bit_length()
+    6
+    ```
+conjugate()
+
+Returns self, the complex conjugate of any int.
+denominator
+
+the denominator of a rational number in lowest terms
+from_bytes(_byteorder ='big'_, _*_ , _signed =False_)
+
+Return the integer represented by the given array of bytes.
+bytes
+
+Holds the array of bytes to convert. The argument must either support the buffer protocol or be an iterable object producing bytes. Bytes and bytearray are examples of built-in objects that support the buffer protocol.
+byteorder
+
+The byte order used to represent the integer. If byteorder is ‘big’, the most significant byte is at the beginning of the byte array. If byteorder is ‘little’, the most significant byte is at the end of the byte array. To request the native byte order of the host system, use `sys.byteorder’ as the byte order value. Default is to use ‘big’.
+signed
+
+Indicates whether two’s complement is used to represent the integer.
+imag
+
+the imaginary part of a complex number
+numerator
+
+the numerator of a rational number in lowest terms
+real
+
+the real part of a complex number
+to_bytes(_length =1_, _byteorder ='big'_, _*_ , _signed =False_)
+
+Return an array of bytes representing an integer.
+length
+
+Length of bytes object to use. An OverflowError is raised if the integer is not representable with the given number of bytes. Default is length 1.
+byteorder
+
+The byte order used to represent the integer. If byteorder is ‘big’, the most significant byte is at the beginning of the byte array. If byteorder is ‘little’, the most significant byte is at the end of the byte array. To request the native byte order of the host system, use `sys.byteorder’ as the byte order value. Default is to use ‘big’.
+signed
+
+Determines whether two’s complement is used to represent the integer. If signed is False and a negative integer is given, an OverflowError is raised.
+_static _about(_parent :_, _title : str_, _text : str_)  None
+
+_static _aboutQt(_parent :_, _title : str = ''_)  None
+
+accept(_self_)  None
+
+acceptDrops(_self_)  bool
+
+accessibleDescription(_self_)  str
+
+accessibleName(_self_)  str
+
+actionEvent(_self_ , _event : PySide6.QtGui.QActionEvent_)  None
+
+actions(_self_)  List[PySide6.QtGui.QAction]
+
+activateWindow(_self_)  None
+
+addAction(_self_ , _action : PySide6.QtGui.QAction_)  None
+addAction(_self_ , _icon : Union[PySide6.QtGui.QIcon, PySide6.QtGui.QPixmap]_, _text : str_)  PySide6.QtGui.QAction
+addAction(_self_ , _icon : Union[PySide6.QtGui.QIcon, PySide6.QtGui.QPixmap]_, _text : str_, _callable : object_)  PySide6.QtGui.QAction
+addAction(_self_ , _icon : Union[PySide6.QtGui.QIcon, PySide6.QtGui.QPixmap]_, _text : str_, _receiver : PySide6.QtCore.QObject_, _member : bytes_, _type : = Instance(Qt.AutoConnection)_)  PySide6.QtGui.QAction
+addAction(_self_ , _icon : Union[PySide6.QtGui.QIcon, PySide6.QtGui.QPixmap]_, _text : str_, _shortcut : Union[PySide6.QtGui.QKeySequence, PySide6.QtCore.QKeyCombination, PySide6.QtGui.QKeySequence.StandardKey, str, int]_)  PySide6.QtGui.QAction
+addAction(_self_ , _icon : Union[PySide6.QtGui.QIcon, PySide6.QtGui.QPixmap]_, _text : str_, _shortcut : Union[PySide6.QtGui.QKeySequence, PySide6.QtCore.QKeyCombination, PySide6.QtGui.QKeySequence.StandardKey, str, int]_, _callable : object_)  PySide6.QtGui.QAction
+addAction(_self_ , _icon : Union[PySide6.QtGui.QIcon, PySide6.QtGui.QPixmap]_, _text : str_, _shortcut : Union[PySide6.QtGui.QKeySequence, PySide6.QtCore.QKeyCombination, PySide6.QtGui.QKeySequence.StandardKey, str, int]_, _receiver : PySide6.QtCore.QObject_, _member : bytes_, _type : = Instance(Qt.AutoConnection)_)  PySide6.QtGui.QAction
+addAction(_self_ , _text : str_)  PySide6.QtGui.QAction
+addAction(_self_ , _text : str_, _callable : object_)  PySide6.QtGui.QAction
+addAction(_self_ , _text : str_, _receiver : PySide6.QtCore.QObject_, _member : bytes_, _type : = Instance(Qt.AutoConnection)_)  PySide6.QtGui.QAction
+addAction(_self_ , _text : str_, _shortcut : Union[PySide6.QtGui.QKeySequence, PySide6.QtCore.QKeyCombination, PySide6.QtGui.QKeySequence.StandardKey, str, int]_)  PySide6.QtGui.QAction
+addAction(_self_ , _text : str_, _shortcut : Union[PySide6.QtGui.QKeySequence, PySide6.QtCore.QKeyCombination, PySide6.QtGui.QKeySequence.StandardKey, str, int]_, _callable : object_)  PySide6.QtGui.QAction
+addAction(_self_ , _text : str_, _shortcut : Union[PySide6.QtGui.QKeySequence, PySide6.QtCore.QKeyCombination, PySide6.QtGui.QKeySequence.StandardKey, str, int]_, _receiver : PySide6.QtCore.QObject_, _member : bytes_, _type : = Instance(Qt.AutoConnection)_)  PySide6.QtGui.QAction
+
+addActions(_self_ , _actions : Sequence[PySide6.QtGui.QAction]_)  None
+
+addButton(_self_ , _button : PySide6.QtWidgets.QAbstractButton_, _role : PySide6.QtWidgets.QMessageBox.ButtonRole_)  None
+addButton(_self_ , _button : PySide6.QtWidgets.QMessageBox.StandardButton_)  PySide6.QtWidgets.QPushButton
+addButton(_self_ , _text : str_, _role : PySide6.QtWidgets.QMessageBox.ButtonRole_)  PySide6.QtWidgets.QPushButton
+
+adjustPosition(_self_ , _arg__1 :_)  None
+
+adjustSize(_self_)  None
+
+autoFillBackground(_self_)  bool
+
+backgroundRole(_self_)
+
+backingStore(_self_)  PySide6.QtGui.QBackingStore
+
+baseSize(_self_)  PySide6.QtCore.QSize
+
+blockSignals(_self_ , _b : bool_)  bool
+
+button(_self_ , _which : PySide6.QtWidgets.QMessageBox.StandardButton_)  PySide6.QtWidgets.QAbstractButton
+
+buttonRole(_self_ , _button : PySide6.QtWidgets.QAbstractButton_)  PySide6.QtWidgets.QMessageBox.ButtonRole
+
+buttonText(_self_ , _button : int_)  str
+
+buttons(_self_)  List[PySide6.QtWidgets.QAbstractButton]
+
+changeEvent(_self_ , _event : PySide6.QtCore.QEvent_)  None
+
+checkBox(_self_)
+
+childAt(_self_ , _p : PySide6.QtCore.QPoint_)
+childAt(_self_ , _x : int_, _y : int_)
+
+childEvent(_self_ , _event : PySide6.QtCore.QChildEvent_)  None
+
+children(_self_)  List[PySide6.QtCore.QObject]
+
+childrenRect(_self_)  PySide6.QtCore.QRect
+
+childrenRegion(_self_)  PySide6.QtGui.QRegion
+
+clearFocus(_self_)  None
+
+clearMask(_self_)  None
+
+clickedButton(_self_)  PySide6.QtWidgets.QAbstractButton
+
+close(_self_)  bool
+
+closeEvent(_self_ , _event : PySide6.QtGui.QCloseEvent_)  None
+
+colorCount(_self_)  int
+
+_static _connect(_arg__1 : PySide6.QtCore.QObject_, _arg__2 : bytes_, _arg__3 : Callable_, _type : = Instance(Qt.AutoConnection)_)  PySide6.QtCore.QMetaObject.Connection
+_static _connect(_self_ , _arg__1 : bytes_, _arg__2 : Callable_, _type : = Instance(Qt.AutoConnection)_)  PySide6.QtCore.QMetaObject.Connection
+_static _connect(_self_ , _arg__1 : bytes_, _arg__2 : PySide6.QtCore.QObject_, _arg__3 : bytes_, _type : = Instance(Qt.AutoConnection)_)  PySide6.QtCore.QMetaObject.Connection
+_static _connect(_self_ , _sender : PySide6.QtCore.QObject_, _signal : bytes_, _member : bytes_, _type : = Instance(Qt.AutoConnection)_)  PySide6.QtCore.QMetaObject.Connection
+_static _connect(_sender : PySide6.QtCore.QObject_, _signal : PySide6.QtCore.QMetaMethod_, _receiver : PySide6.QtCore.QObject_, _method : PySide6.QtCore.QMetaMethod_, _type : = Instance(Qt.AutoConnection)_)  PySide6.QtCore.QMetaObject.Connection
+_static _connect(_sender : PySide6.QtCore.QObject_, _signal : bytes_, _receiver : PySide6.QtCore.QObject_, _member : bytes_, _type : = Instance(Qt.AutoConnection)_)  PySide6.QtCore.QMetaObject.Connection
+
+connectNotify(_self_ , _signal : PySide6.QtCore.QMetaMethod_)  None
+
+contentsMargins(_self_)  PySide6.QtCore.QMargins
+
+contentsRect(_self_)  PySide6.QtCore.QRect
+
+contextMenuEvent(_self_ , _arg__1 : PySide6.QtGui.QContextMenuEvent_)  None
+
+contextMenuPolicy(_self_)
+
+create(_self_ , _arg__1 : int = 0_, _initializeWindow : bool = True_, _destroyOldWindow : bool = True_)  None
+
+createWinId(_self_)  None
+
+_static _createWindowContainer(_window : PySide6.QtGui.QWindow_, _parent : Optional] = None_, _flags : = Default(Qt.WindowFlags)_)
+
+_static _critical(_parent :_, _title : str_, _text : str_, _button0 : PySide6.QtWidgets.QMessageBox.StandardButton_, _button1 : PySide6.QtWidgets.QMessageBox.StandardButton_)  int
+_static _critical(_parent :_, _title : str_, _text : str_, _buttons : PySide6.QtWidgets.QMessageBox.StandardButton = Instance(QMessageBox.StandardButton.Ok)_, _defaultButton : PySide6.QtWidgets.QMessageBox.StandardButton = Instance(QMessageBox.StandardButton.NoButton)_)  PySide6.QtWidgets.QMessageBox.StandardButton
+
+cursor(_self_)  PySide6.QtGui.QCursor
+
+customEvent(_self_ , _event : PySide6.QtCore.QEvent_)  None
+
+defaultButton(_self_)  PySide6.QtWidgets.QPushButton
+
+deleteLater(_self_)  None
+
+depth(_self_)  int
+
+destroy(_self_ , _destroyWindow : bool = True_, _destroySubWindows : bool = True_)  None
+
+detailedText(_self_)  str
+
+devType(_self_)  int
+
+devicePixelRatio(_self_)  float
+
+devicePixelRatioF(_self_)  float
+
+_static _devicePixelRatioFScale()  float
+
+_static _disconnect(_arg__1 : PySide6.QtCore.QMetaObject.Connection_)  bool
+_static _disconnect(_arg__1 : PySide6.QtCore.QObject_, _arg__2 : bytes_, _arg__3 : Callable_)  bool
+_static _disconnect(_self_ , _arg__1 : bytes_, _arg__2 : Callable_)  bool
+_static _disconnect(_self_ , _receiver : PySide6.QtCore.QObject_, _member : Optional[bytes] = None_)  bool
+_static _disconnect(_self_ , _signal : bytes_, _receiver : PySide6.QtCore.QObject_, _member : bytes_)  bool
+_static _disconnect(_sender : PySide6.QtCore.QObject_, _signal : PySide6.QtCore.QMetaMethod_, _receiver : PySide6.QtCore.QObject_, _member : PySide6.QtCore.QMetaMethod_)  bool
+_static _disconnect(_sender : PySide6.QtCore.QObject_, _signal : bytes_, _receiver : PySide6.QtCore.QObject_, _member : bytes_)  bool
+
+disconnectNotify(_self_ , _signal : PySide6.QtCore.QMetaMethod_)  None
+
+done(_self_ , _arg__1 : int_)  None
+
+dragEnterEvent(_self_ , _event : PySide6.QtGui.QDragEnterEvent_)  None
+
+dragLeaveEvent(_self_ , _event : PySide6.QtGui.QDragLeaveEvent_)  None
+
+dragMoveEvent(_self_ , _event : PySide6.QtGui.QDragMoveEvent_)  None
+
+dropEvent(_self_ , _event : PySide6.QtGui.QDropEvent_)  None
+
+dumpObjectInfo(_self_)  None
+
+dumpObjectTree(_self_)  None
+
+dynamicPropertyNames(_self_)  List[PySide6.QtCore.QByteArray]
+
+effectiveWinId(_self_)  int
+
+emit(_self_ , _arg__1 : bytes_, _* args: None_)  bool
+
+ensurePolished(_self_)  None
+
+enterEvent(_self_ , _event : PySide6.QtGui.QEnterEvent_)  None
+
+escapeButton(_self_)  PySide6.QtWidgets.QAbstractButton
+
+event(_self_ , _e : PySide6.QtCore.QEvent_)  bool
+
+eventFilter(_self_ , _arg__1 : PySide6.QtCore.QObject_, _arg__2 : PySide6.QtCore.QEvent_)  bool
+
+exec(_self_)  int
+
+exec_(_self_)  int
+
+_static _find(_arg__1 : int_)
+
+findChild(_self_ , _type : type_, _name : str = {}_, _options : = Instance(Qt.FindChildrenRecursively)_)  object
+
+findChildren(_self_ , _type : type_, _name : str = {}_, _options : = Instance(Qt.FindChildrenRecursively)_)
+findChildren(_self_ , _type : type_, _pattern : Union[PySide6.QtCore.QRegularExpression, str]_, _options : = Instance(Qt.FindChildrenRecursively)_)
+
+focusInEvent(_self_ , _event : PySide6.QtGui.QFocusEvent_)  None
+
+focusNextChild(_self_)  bool
+
+focusNextPrevChild(_self_ , _next : bool_)  bool
+
+focusOutEvent(_self_ , _event : PySide6.QtGui.QFocusEvent_)  None
+
+focusPolicy(_self_)
+
+focusPreviousChild(_self_)  bool
+
+focusProxy(_self_)
+
+focusWidget(_self_)
+
+font(_self_)  PySide6.QtGui.QFont
+
+fontInfo(_self_)  PySide6.QtGui.QFontInfo
+
+fontMetrics(_self_)  PySide6.QtGui.QFontMetrics
+
+foregroundRole(_self_)
+
+frameGeometry(_self_)  PySide6.QtCore.QRect
+
+frameSize(_self_)  PySide6.QtCore.QSize
+
+geometry(_self_)  PySide6.QtCore.QRect
+
+grab(_self_ , _rectangle : PySide6.QtCore.QRect = PySide6.QtCore.QRect(0, 0, - 1, - 1)_)  PySide6.QtGui.QPixmap
+
+grabGesture(_self_ , _type :_, _flags : = Default(Qt.GestureFlags)_)  None
+
+grabKeyboard(_self_)  None
+
+grabMouse(_self_)  None
+grabMouse(_self_ , _arg__1 : Union, PySide6.QtGui.QPixmap]_)  None
+
+grabShortcut(_self_ , _key : Union[PySide6.QtGui.QKeySequence, PySide6.QtCore.QKeyCombination, PySide6.QtGui.QKeySequence.StandardKey, str, int]_, _context : = Instance(Qt.WindowShortcut)_)  int
+
+graphicsEffect(_self_)  PySide6.QtWidgets.QGraphicsEffect
+
+graphicsProxyWidget(_self_)  PySide6.QtWidgets.QGraphicsProxyWidget
+
+hasFocus(_self_)  bool
+
+hasHeightForWidth(_self_)  bool
+
+hasMouseTracking(_self_)  bool
+
+hasTabletTracking(_self_)  bool
+
+height(_self_)  int
+
+heightForWidth(_self_ , _arg__1 : int_)  int
+
+heightMM(_self_)  int
+
+hide(_self_)  None
+
+hideEvent(_self_ , _event : PySide6.QtGui.QHideEvent_)  None
+
+icon(_self_)  PySide6.QtWidgets.QMessageBox.Icon
+
+iconPixmap(_self_)  PySide6.QtGui.QPixmap
+
+_static _information(_parent :_, _title : str_, _text : str_, _button0 : PySide6.QtWidgets.QMessageBox.StandardButton_, _button1 : PySide6.QtWidgets.QMessageBox.StandardButton = Instance(QMessageBox.StandardButton.NoButton)_)  PySide6.QtWidgets.QMessageBox.StandardButton
+_static _information(_parent :_, _title : str_, _text : str_, _buttons : PySide6.QtWidgets.QMessageBox.StandardButton = Instance(QMessageBox.StandardButton.Ok)_, _defaultButton : PySide6.QtWidgets.QMessageBox.StandardButton = Instance(QMessageBox.StandardButton.NoButton)_)  PySide6.QtWidgets.QMessageBox.StandardButton
+
+informativeText(_self_)  str
+
+inherits(_self_ , _classname : bytes_)  bool
+
+initPainter(_self_ , _painter :_)  None
+
+inputMethodEvent(_self_ , _event : PySide6.QtGui.QInputMethodEvent_)  None
+
+inputMethodHints(_self_)
+
+inputMethodQuery(_self_ , _arg__1 :_)  Any
+
+insertAction(_self_ , _before : PySide6.QtGui.QAction_, _action : PySide6.QtGui.QAction_)  None
+
+insertActions(_self_ , _before : PySide6.QtGui.QAction_, _actions : Sequence[PySide6.QtGui.QAction]_)  None
+
+installEventFilter(_self_ , _filterObj : PySide6.QtCore.QObject_)  None
+
+internalWinId(_self_)  int
+
+isActiveWindow(_self_)  bool
+
+isAncestorOf(_self_ , _child :_)  bool
+
+isEnabled(_self_)  bool
+
+isEnabledTo(_self_ , _arg__1 :_)  bool
+
+isFullScreen(_self_)  bool
+
+isHidden(_self_)  bool
+
+isLeftToRight(_self_)  bool
+
+isMaximized(_self_)  bool
+
+isMinimized(_self_)  bool
+
+isModal(_self_)  bool
+
+isQuickItemType(_self_)  bool
+
+isRightToLeft(_self_)  bool
+
+isSignalConnected(_self_ , _signal : PySide6.QtCore.QMetaMethod_)  bool
+
+isSizeGripEnabled(_self_)  bool
+
+isTopLevel(_self_)  bool
+
+isVisible(_self_)  bool
+
+isVisibleTo(_self_ , _arg__1 :_)  bool
+
+isWidgetType(_self_)  bool
+
+isWindow(_self_)  bool
+
+isWindowModified(_self_)  bool
+
+isWindowType(_self_)  bool
+
+keyPressEvent(_self_ , _event : PySide6.QtGui.QKeyEvent_)  None
+
+keyReleaseEvent(_self_ , _event : PySide6.QtGui.QKeyEvent_)  None
+
+_static _keyboardGrabber()
+
+killTimer(_self_ , _id : int_)  None
+
+layout(_self_)  PySide6.QtWidgets.QLayout
+
+layoutDirection(_self_)
+
+leaveEvent(_self_ , _event : PySide6.QtCore.QEvent_)  None
+
+locale(_self_)  PySide6.QtCore.QLocale
+
+logicalDpiX(_self_)  int
+
+logicalDpiY(_self_)  int
+
+lower(_self_)  None
+
+mapFrom(_self_ , _arg__1 :_, _arg__2 : PySide6.QtCore.QPoint_)  PySide6.QtCore.QPoint
+mapFrom(_self_ , _arg__1 :_, _arg__2 : Union]_)  PySide6.QtCore.QPointF
+
+mapFromGlobal(_self_ , _arg__1 : PySide6.QtCore.QPoint_)  PySide6.QtCore.QPoint
+mapFromGlobal(_self_ , _arg__1 : Union]_)  PySide6.QtCore.QPointF
+
+mapFromParent(_self_ , _arg__1 : PySide6.QtCore.QPoint_)  PySide6.QtCore.QPoint
+mapFromParent(_self_ , _arg__1 : Union]_)  PySide6.QtCore.QPointF
+
+mapTo(_self_ , _arg__1 :_, _arg__2 : PySide6.QtCore.QPoint_)  PySide6.QtCore.QPoint
+mapTo(_self_ , _arg__1 :_, _arg__2 : Union]_)  PySide6.QtCore.QPointF
+
+mapToGlobal(_self_ , _arg__1 : PySide6.QtCore.QPoint_)  PySide6.QtCore.QPoint
+mapToGlobal(_self_ , _arg__1 : Union]_)  PySide6.QtCore.QPointF
+
+mapToParent(_self_ , _arg__1 : PySide6.QtCore.QPoint_)  PySide6.QtCore.QPoint
+mapToParent(_self_ , _arg__1 : Union]_)  PySide6.QtCore.QPointF
+
+mask(_self_)  PySide6.QtGui.QRegion
+
+maximumHeight(_self_)  int
+
+maximumSize(_self_)  PySide6.QtCore.QSize
+
+maximumWidth(_self_)  int
+
+metaObject(_self_)  PySide6.QtCore.QMetaObject
+
+metric(_self_ , _arg__1 :_)  int
+
+minimumHeight(_self_)  int
+
+minimumSize(_self_)  PySide6.QtCore.QSize
+
+minimumSizeHint(_self_)  PySide6.QtCore.QSize
+
+minimumWidth(_self_)  int
+
+mouseDoubleClickEvent(_self_ , _event : PySide6.QtGui.QMouseEvent_)  None
+
+_static _mouseGrabber()
+
+mouseMoveEvent(_self_ , _event : PySide6.QtGui.QMouseEvent_)  None
+
+mousePressEvent(_self_ , _event : PySide6.QtGui.QMouseEvent_)  None
+
+mouseReleaseEvent(_self_ , _event : PySide6.QtGui.QMouseEvent_)  None
+
+move(_self_ , _arg__1 : PySide6.QtCore.QPoint_)  None
+move(_self_ , _x : int_, _y : int_)  None
+
+moveEvent(_self_ , _event : PySide6.QtGui.QMoveEvent_)  None
+
+moveToThread(_self_ , _thread : PySide6.QtCore.QThread_)  None
+
+nativeEvent(_self_ , _eventType : Union[PySide6.QtCore.QByteArray, bytes]_, _message : int_)  object
+
+nativeParentWidget(_self_)
+
+nextInFocusChain(_self_)
+
+normalGeometry(_self_)  PySide6.QtCore.QRect
+
+objectName(_self_)  str
+
+open(_self_)  None
+open(_self_ , _receiver : PySide6.QtCore.QObject_, _member : bytes_)  None
+
+overrideWindowFlags(_self_ , _type :_)  None
+
+overrideWindowState(_self_ , _state :_)  None
+
+paintEngine(_self_)  PySide6.QtGui.QPaintEngine
+
+paintEvent(_self_ , _event : PySide6.QtGui.QPaintEvent_)  None
+
+paintingActive(_self_)  bool
+
+palette(_self_)
+
+parent(_self_)  PySide6.QtCore.QObject
+
+parentWidget(_self_)
+
+physicalDpiX(_self_)  int
+
+physicalDpiY(_self_)  int
+
+pos(_self_)  PySide6.QtCore.QPoint
+
+previousInFocusChain(_self_)
+
+property(_self_ , _name : str_)  Any
+
+_static _question(_parent :_, _title : str_, _text : str_, _button0 : PySide6.QtWidgets.QMessageBox.StandardButton_, _button1 : PySide6.QtWidgets.QMessageBox.StandardButton_)  int
+_static _question(_parent :_, _title : str_, _text : str_, _buttons : PySide6.QtWidgets.QMessageBox.StandardButton = Instance(QMessageBox.StandardButtons(QMessageBox.StandardButton.Yes  QMessageBox.StandardButton.No))_, _defaultButton : PySide6.QtWidgets.QMessageBox.StandardButton = Instance(QMessageBox.StandardButton.NoButton)_)  PySide6.QtWidgets.QMessageBox.StandardButton
+
+raise_(_self_)  None
+
+receivers(_self_ , _signal : bytes_)  int
+
+rect(_self_)  PySide6.QtCore.QRect
+
+redirected(_self_ , _offset : PySide6.QtCore.QPoint_)  PySide6.QtGui.QPaintDevice
+
+reject(_self_)  None
+
+releaseKeyboard(_self_)  None
+
+releaseMouse(_self_)  None
+
+releaseShortcut(_self_ , _id : int_)  None
+
+removeAction(_self_ , _action : PySide6.QtGui.QAction_)  None
+
+removeButton(_self_ , _button : PySide6.QtWidgets.QAbstractButton_)  None
+
+removeEventFilter(_self_ , _obj : PySide6.QtCore.QObject_)  None
+
+render(_self_ , _painter :_, _targetOffset : PySide6.QtCore.QPoint_, _sourceRegion : Union[PySide6.QtGui.QRegion, PySide6.QtGui.QBitmap, PySide6.QtGui.QPolygon, PySide6.QtCore.QRect] = Default(QRegion)_, _renderFlags : = Instance(QWidget.RenderFlags(QWidget.RenderFlag.DrawWindowBackground  QWidget.RenderFlag.DrawChildren))_)  None
+render(_self_ , _target : PySide6.QtGui.QPaintDevice_, _targetOffset : PySide6.QtCore.QPoint = Default(QPoint)_, _sourceRegion : Union[PySide6.QtGui.QRegion, PySide6.QtGui.QBitmap, PySide6.QtGui.QPolygon, PySide6.QtCore.QRect] = Default(QRegion)_, _renderFlags : = Instance(QWidget.RenderFlags(QWidget.RenderFlag.DrawWindowBackground  QWidget.RenderFlag.DrawChildren))_)  None
+
+repaint(_self_)  None
+repaint(_self_ , _arg__1 : PySide6.QtCore.QRect_)  None
+repaint(_self_ , _arg__1 : Union[PySide6.QtGui.QRegion, PySide6.QtGui.QBitmap, PySide6.QtGui.QPolygon, PySide6.QtCore.QRect]_)  None
+repaint(_self_ , _x : int_, _y : int_, _w : int_, _h : int_)  None
+
+resize(_self_ , _arg__1 : PySide6.QtCore.QSize_)  None
+resize(_self_ , _w : int_, _h : int_)  None
+
+resizeEvent(_self_ , _event : PySide6.QtGui.QResizeEvent_)  None
+
+restoreGeometry(_self_ , _geometry : Union[PySide6.QtCore.QByteArray, bytes]_)  bool
+
+result(_self_)  int
+
+saveGeometry(_self_)  PySide6.QtCore.QByteArray
+
+screen(_self_)  PySide6.QtGui.QScreen
+
+scroll(_self_ , _dx : int_, _dy : int_)  None
+scroll(_self_ , _dx : int_, _dy : int_, _arg__3 : PySide6.QtCore.QRect_)  None
+
+sender(_self_)  PySide6.QtCore.QObject
+
+senderSignalIndex(_self_)  int
+
+setAcceptDrops(_self_ , _on : bool_)  None
+
+setAccessibleDescription(_self_ , _description : str_)  None
+
+setAccessibleName(_self_ , _name : str_)  None
+
+setAttribute(_self_ , _arg__1 :_, _on : bool = True_)  None
+
+setAutoFillBackground(_self_ , _enabled : bool_)  None
+
+setBackgroundRole(_self_ , _arg__1 :_)  None
+
+setBaseSize(_self_ , _arg__1 : PySide6.QtCore.QSize_)  None
+setBaseSize(_self_ , _basew : int_, _baseh : int_)  None
+
+setButtonText(_self_ , _button : int_, _text : str_)  None
+
+setCheckBox(_self_ , _cb :_)  None
+
+setContentsMargins(_self_ , _left : int_, _top : int_, _right : int_, _bottom : int_)  None
+setContentsMargins(_self_ , _margins : PySide6.QtCore.QMargins_)  None
+
+setContextMenuPolicy(_self_ , _policy :_)  None
+
+setCursor(_self_ , _arg__1 : Union, PySide6.QtGui.QPixmap]_)  None
+
+setDefaultButton(_self_ , _button : PySide6.QtWidgets.QMessageBox.StandardButton_)  None
+setDefaultButton(_self_ , _button : PySide6.QtWidgets.QPushButton_)  None
+
+setDetailedText(_self_ , _text : str_)  None
+
+setDisabled(_self_ , _arg__1 : bool_)  None
+
+setEnabled(_self_ , _arg__1 : bool_)  None
+
+setEscapeButton(_self_ , _button : PySide6.QtWidgets.QAbstractButton_)  None
+setEscapeButton(_self_ , _button : PySide6.QtWidgets.QMessageBox.StandardButton_)  None
+
+setFixedHeight(_self_ , _h : int_)  None
+
+setFixedSize(_self_ , _arg__1 : PySide6.QtCore.QSize_)  None
+setFixedSize(_self_ , _w : int_, _h : int_)  None
+
+setFixedWidth(_self_ , _w : int_)  None
+
+setFocus(_self_)  None
+setFocus(_self_ , _reason :_)  None
+
+setFocusPolicy(_self_ , _policy :_)  None
+
+setFocusProxy(_self_ , _arg__1 :_)  None
+
+setFont(_self_ , _arg__1 : Union[PySide6.QtGui.QFont, str, Sequence[str]]_)  None
+
+setForegroundRole(_self_ , _arg__1 :_)  None
+
+setGeometry(_self_ , _arg__1 : PySide6.QtCore.QRect_)  None
+setGeometry(_self_ , _x : int_, _y : int_, _w : int_, _h : int_)  None
+
+setGraphicsEffect(_self_ , _effect : PySide6.QtWidgets.QGraphicsEffect_)  None
+
+setHidden(_self_ , _hidden : bool_)  None
+
+setIcon(_self_ , _arg__1 : PySide6.QtWidgets.QMessageBox.Icon_)  None
+
+setIconPixmap(_self_ , _pixmap : Union[PySide6.QtGui.QPixmap, PySide6.QtGui.QImage, str]_)  None
+
+setInformativeText(_self_ , _text : str_)  None
+
+setInputMethodHints(_self_ , _hints :_)  None
+
+setLayout(_self_ , _arg__1 : PySide6.QtWidgets.QLayout_)  None
+
+setLayoutDirection(_self_ , _direction :_)  None
+
+setLocale(_self_ , _locale : Union[PySide6.QtCore.QLocale, PySide6.QtCore.QLocale.Language]_)  None
+
+setMask(_self_ , _arg__1 : Union[PySide6.QtGui.QBitmap, str]_)  None
+setMask(_self_ , _arg__1 : Union[PySide6.QtGui.QRegion, PySide6.QtGui.QBitmap, PySide6.QtGui.QPolygon, PySide6.QtCore.QRect]_)  None
+
+setMaximumHeight(_self_ , _maxh : int_)  None
+
+setMaximumSize(_self_ , _arg__1 : PySide6.QtCore.QSize_)  None
+setMaximumSize(_self_ , _maxw : int_, _maxh : int_)  None
+
+setMaximumWidth(_self_ , _maxw : int_)  None
+
+setMinimumHeight(_self_ , _minh : int_)  None
+
+setMinimumSize(_self_ , _arg__1 : PySide6.QtCore.QSize_)  None
+setMinimumSize(_self_ , _minw : int_, _minh : int_)  None
+
+setMinimumWidth(_self_ , _minw : int_)  None
+
+setModal(_self_ , _modal : bool_)  None
+
+setMouseTracking(_self_ , _enable : bool_)  None
+
+setObjectName(_self_ , _name : str_)  None
+
+setPalette(_self_ , _arg__1 : Union,, PySide6.QtGui.QColor]_)  None
+
+setParent(_self_ , _parent : Optional]_)  None
+setParent(_self_ , _parent : Optional]_, _f :_)  None
+
+setProperty(_self_ , _name : str_, _value : Any_)  bool
+
+setResult(_self_ , _r : int_)  None
+
+setScreen(_self_ , _arg__1 : PySide6.QtGui.QScreen_)  None
+
+setShortcutAutoRepeat(_self_ , _id : int_, _enable : bool = True_)  None
+
+setShortcutEnabled(_self_ , _id : int_, _enable : bool = True_)  None
+
+setSizeGripEnabled(_self_ , _arg__1 : bool_)  None
+
+setSizeIncrement(_self_ , _arg__1 : PySide6.QtCore.QSize_)  None
+setSizeIncrement(_self_ , _w : int_, _h : int_)  None
+
+setSizePolicy(_self_ , _arg__1 :_)  None
+setSizePolicy(_self_ , _horizontal :_, _vertical :_)  None
+
+setStandardButtons(_self_ , _buttons : PySide6.QtWidgets.QMessageBox.StandardButton_)  None
+
+setStatusTip(_self_ , _arg__1 : str_)  None
+
+setStyle(_self_ , _arg__1 :_)  None
+
+setStyleSheet(_self_ , _styleSheet : str_)  None
+
+_static _setTabOrder(_arg__1 :_, _arg__2 :_)  None
+
+setTabletTracking(_self_ , _enable : bool_)  None
+
+setText(_self_ , _text : str_)  None
+
+setTextFormat(_self_ , _format :_)  None
+
+setTextInteractionFlags(_self_ , _flags :_)  None
+
+setToolTip(_self_ , _arg__1 : str_)  None
+
+setToolTipDuration(_self_ , _msec : int_)  None
+
+setUpdatesEnabled(_self_ , _enable : bool_)  None
+
+setVisible(_self_ , _visible : bool_)  None
+
+setWhatsThis(_self_ , _arg__1 : str_)  None
+
+setWindowFilePath(_self_ , _filePath : str_)  None
+
+setWindowFlag(_self_ , _arg__1 :_, _on : bool = True_)  None
+
+setWindowFlags(_self_ , _type :_)  None
+
+setWindowIcon(_self_ , _icon : Union[PySide6.QtGui.QIcon, PySide6.QtGui.QPixmap]_)  None
+
+setWindowIconText(_self_ , _arg__1 : str_)  None
+
+setWindowModality(_self_ , _windowModality :_)  None
+
+setWindowModified(_self_ , _arg__1 : bool_)  None
+
+setWindowOpacity(_self_ , _level : float_)  None
+
+setWindowRole(_self_ , _arg__1 : str_)  None
+
+setWindowState(_self_ , _state :_)  None
+
+setWindowTitle(_self_ , _title : str_)  None
+
+sharedPainter(_self_)
+
+show(_self_)  None
+
+showEvent(_self_ , _event : PySide6.QtGui.QShowEvent_)  None
+
+showFullScreen(_self_)  None
+
+showMaximized(_self_)  None
+
+showMinimized(_self_)  None
+
+showNormal(_self_)  None
+
+signalsBlocked(_self_)  bool
+
+size(_self_)  PySide6.QtCore.QSize
+
+sizeHint(_self_)  PySide6.QtCore.QSize
+
+sizeIncrement(_self_)  PySide6.QtCore.QSize
+
+sizePolicy(_self_)
+
+stackUnder(_self_ , _arg__1 :_)  None
+
+standardButton(_self_ , _button : PySide6.QtWidgets.QAbstractButton_)  PySide6.QtWidgets.QMessageBox.StandardButton
+
+standardButtons(_self_)  PySide6.QtWidgets.QMessageBox.StandardButton
+
+_static _standardIcon(_icon : PySide6.QtWidgets.QMessageBox.Icon_)  PySide6.QtGui.QPixmap
+
+startTimer(_self_ , _interval : int_, _timerType : = Instance(Qt.CoarseTimer)_)  int
+
+statusTip(_self_)  str
+
+style(_self_)
+
+styleSheet(_self_)  str
+
+tabletEvent(_self_ , _event : PySide6.QtGui.QTabletEvent_)  None
+
+testAttribute(_self_ , _arg__1 :_)  bool
+
+text(_self_)  str
+
+textFormat(_self_)
+
+textInteractionFlags(_self_)
+
+thread(_self_)  PySide6.QtCore.QThread
+
+timerEvent(_self_ , _event : PySide6.QtCore.QTimerEvent_)  None
+
+toolTip(_self_)  str
+
+toolTipDuration(_self_)  int
+
+topLevelWidget(_self_)
+
+tr(_self_ , _sourceText : str_, _disambiguation : Optional[str]_, _n : int = - 1_)  str
+
+underMouse(_self_)  bool
+
+ungrabGesture(_self_ , _type :_)  None
+
+unsetCursor(_self_)  None
+
+unsetLayoutDirection(_self_)  None
+
+unsetLocale(_self_)  None
+
+update(_self_)  None
+update(_self_ , _arg__1 : PySide6.QtCore.QRect_)  None
+update(_self_ , _arg__1 : Union[PySide6.QtGui.QRegion, PySide6.QtGui.QBitmap, PySide6.QtGui.QPolygon, PySide6.QtCore.QRect]_)  None
+update(_self_ , _x : int_, _y : int_, _w : int_, _h : int_)  None
+
+updateGeometry(_self_)  None
+
+updateMicroFocus(_self_ , _query : = Instance(Qt.ImQueryAll)_)  None
+
+updatesEnabled(_self_)  bool
+
+visibleRegion(_self_)  PySide6.QtGui.QRegion
+
+_static _warning(_parent :_, _title : str_, _text : str_, _button0 : PySide6.QtWidgets.QMessageBox.StandardButton_, _button1 : PySide6.QtWidgets.QMessageBox.StandardButton_)  int
+_static _warning(_parent :_, _title : str_, _text : str_, _buttons : PySide6.QtWidgets.QMessageBox.StandardButton = Instance(QMessageBox.StandardButton.Ok)_, _defaultButton : PySide6.QtWidgets.QMessageBox.StandardButton = Instance(QMessageBox.StandardButton.NoButton)_)  PySide6.QtWidgets.QMessageBox.StandardButton
+
+whatsThis(_self_)  str
+
+wheelEvent(_self_ , _event : PySide6.QtGui.QWheelEvent_)  None
+
+width(_self_)  int
+
+widthMM(_self_)  int
+
+winId(_self_)  int
+
+window(_self_)
+
+windowFilePath(_self_)  str
+
+windowFlags(_self_)
+
+windowHandle(_self_)  PySide6.QtGui.QWindow
+
+windowIcon(_self_)  PySide6.QtGui.QIcon
+
+windowIconText(_self_)  str
+
+windowModality(_self_)
+
+windowOpacity(_self_)  float
+
+windowRole(_self_)  str
+
+windowState(_self_)
+
+windowTitle(_self_)  str
+
+windowType(_self_)
+
+x(_self_)  int
+
+y(_self_)  int

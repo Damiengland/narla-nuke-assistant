@@ -1,0 +1,2 @@
+# nukescripts.run_framecycler
+Functions ---   This function used to detect if we were running on Mac OS Tiger; we no longer support Tiger, so this function always returns true now.  Run framecycler on a Read or Write node.

@@ -1,0 +1,2 @@
+# nukescripts.translatePivotToPointsVerified
+nukescripts.translatePivotToPointsVerified(_nodeToSnap_ , _vertexSelection_)

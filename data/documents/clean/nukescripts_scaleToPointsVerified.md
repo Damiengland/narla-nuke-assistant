@@ -1,0 +1,2 @@
+# nukescripts.scaleToPointsVerified
+nukescripts.scaleToPointsVerified(_nodeToScale_ , _vertexSelection_)

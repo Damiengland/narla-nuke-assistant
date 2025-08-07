@@ -1,0 +1,2 @@
+# nukescripts.snap3d.translateThisNodeToPoints
+nukescripts.snap3d.translateThisNodeToPoints()

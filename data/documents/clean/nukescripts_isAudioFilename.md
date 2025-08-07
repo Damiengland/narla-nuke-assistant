@@ -1,0 +1,2 @@
+# nukescripts.isAudioFilename
+nukescripts.isAudioFilename(_filename_)

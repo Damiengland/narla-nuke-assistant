@@ -1,0 +1,4 @@
+# nukescripts.get_axis_uniform_scaling_knob
+nukescripts.get_axis_uniform_scaling_knob(_node_to_snap_)
+
+Get the axis uniform_scale knob

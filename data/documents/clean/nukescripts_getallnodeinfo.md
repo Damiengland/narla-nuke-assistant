@@ -1,0 +1,2 @@
+# nukescripts.getallnodeinfo
+nukescripts.getallnodeinfo()

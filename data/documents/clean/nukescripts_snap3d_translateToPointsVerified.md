@@ -1,0 +1,2 @@
+# nukescripts.snap3d.translateToPointsVerified
+nukescripts.snap3d.translateToPointsVerified(_nodeToSnap_ , _vertexSelection_)

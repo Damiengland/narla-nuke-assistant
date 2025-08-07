@@ -1,0 +1,4 @@
+# nukescripts.script
+Functions  Helper function for finding the max version of a paticular script in it's current directory.---  Returns file names from all Read nodes.       Increments the versioning in the script name and the path of the timeline write nodes, then saves the new version.  Sets version of the filename knob to the passed in version.  Sets the version number in the file path of the 'timeline' write node  Extract version information from filenames used by DD (and Weta, apparently) These are _v# or /v# or .v# where v is a prefix string, in our case we use "v" for render version and "c" for camera track version.  Changes version information from filenames used by DD (and Weta, apparently) These are _v# or /v# or .v# where v is a prefix string, in our case we use "v" for render version and "c" for camera track version.
+
+Classes  Dialog which gives the user options for resolving version conflicts---  Helper class for storing the new version information

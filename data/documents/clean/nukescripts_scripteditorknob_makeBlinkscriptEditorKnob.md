@@ -1,0 +1,2 @@
+# nukescripts.scripteditorknob.makeBlinkscriptEditorKnob
+nukescripts.scripteditorknob.makeBlinkscriptEditorKnob()

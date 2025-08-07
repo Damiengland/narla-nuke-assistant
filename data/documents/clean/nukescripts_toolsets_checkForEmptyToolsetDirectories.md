@@ -1,0 +1,2 @@
+# nukescripts.toolsets.checkForEmptyToolsetDirectories
+nukescripts.toolsets.checkForEmptyToolsetDirectories(_currPath_)

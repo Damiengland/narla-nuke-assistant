@@ -1,0 +1,3 @@
+# nuke.curveknob
+The Python API for the CurveKnob
+Classes  The knob which holds the tree of paint elements (Layers, Shapes and Strokes).---  The Curve Widget displayed in the Roto panel.  The base class for the different types of elements you can create in the RotoPaint node.  A layer, used to group other elements in the paint tree.  A Roto or SplineWarp shape, which may be animated.  A control point in a roto shape.  A paint stroke, which may be animated.

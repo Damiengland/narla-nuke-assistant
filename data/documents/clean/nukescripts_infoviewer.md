@@ -1,0 +1,2 @@
+# nukescripts.infoviewer
+nukescripts.infoviewer()

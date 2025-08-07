@@ -1,0 +1,2 @@
+# nuke.autolabel
+nuke.autolabel()

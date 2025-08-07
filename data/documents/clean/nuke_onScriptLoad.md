@@ -1,0 +1,2 @@
+# nuke.onScriptLoad
+nuke.onScriptLoad()

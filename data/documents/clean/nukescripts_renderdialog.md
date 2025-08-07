@@ -1,0 +1,4 @@
+# nukescripts.renderdialog
+Functions  Convert the roi passed from a origin at the bottom left to the top left.---  Execute the callable 'call' with optional arguments 'args' and named arguments 'kwargs' in Nuke's main thread and wait for the result to become available.   Set a particular option to the given value.  Set a particular option to the given value.  Present a dialog that executes the given list of nodes.  Present a dialog that flipbooks the given node.  Present a dialog that flipbooks the currently selected node.  Present a dialog that renders the given list of nodes.
+
+Classes ---      A class that represents a thread of control.   This constructor should always be called with keyword arguments.

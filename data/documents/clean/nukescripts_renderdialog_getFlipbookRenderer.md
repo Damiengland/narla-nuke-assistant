@@ -1,0 +1,2 @@
+# nukescripts.renderdialog.getFlipbookRenderer
+nukescripts.renderdialog.getFlipbookRenderer(_flipbookDialog_ , _flipbookToRun_)

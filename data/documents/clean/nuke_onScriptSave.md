@@ -1,0 +1,2 @@
+# nuke.onScriptSave
+nuke.onScriptSave()

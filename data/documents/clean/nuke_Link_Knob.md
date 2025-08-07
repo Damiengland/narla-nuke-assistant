@@ -1,0 +1,321 @@
+# nuke.Link_Knob
+_class _nuke.Link_Knob
+
+Bases:
+Methods
+`Class`
+return
+    Class name.---
+`ClassID`
+return
+    Class ID.
+`applyOverride`  This function only affects link knobs that are placed on a LiveGroup node.
+`clearAnimated`  Clear animation for channel 'c'.
+`clearFlag`  Clear flag.
+`critical`
+param message
+    message to put the knob in error, and do a popup.
+`debug`
+param message
+    message to put out to the error console, attached to the knob, if the verbosity level is set high enough.
+`enabled`
+return
+    True if the knob is enabled, False if it's disabled.
+`error`
+param message
+    message to put the knob in error.
+`fromScript`  Initialise from script.
+`fullyQualifiedName`  Returns the fully-qualified name of the knob within the node.
+`getAuthorMode`  Returns the authoring mode currently set on the knob.
+`getAuthorModes`  Returns the names of the authoring modes of the knob if the knob is an authoring knob, otherwise an empty list.
+`getDerivative`  Return derivative at time 't' for channel 'c'.
+`getFlag`  Returns whether the input flag is set.
+`getIntegral`  Return integral at the interval [t1, t2] for channel 'c'.
+`getKeyIndex`  Return keyframe index at time 't' for channel 'c'.
+`getKeyList`  Get all unique keys on the knob.
+`getKeyTime`  Return index of the keyframe at time 't' for channel 'c'.
+`getLink`
+`getLinkedKnob`
+`getNthDerivative`  Return nth derivative at time 't' for channel 'c'.
+`getNumKeys`  Return number of keyframes for channel 'c'.
+`getValue`  Return value at the current frame for channel 'c'.
+`getValueAt`  Return value at time 't' for channel 'c'.
+`hasExpression`  Return True if animation at index 'index' has an expression.
+`isAnimated`  Return True if channel 'c' is animated.
+`isKey`  Return True if there is a keyframe at the current frame for channel 'c'.
+`isKeyAt`  Return True if there is a keyframe at time 't' for channel 'c'.
+`label`
+return
+    label.
+`makeLink`
+`makeWidget`  Returns an instance of the QWidget subclass used to edit the knob's value.
+`name`
+return
+    name.
+`node`  Return the node that this knob belongs to.
+`notDefault`
+return
+    True if any of the values is not set to the default, False otherwise.
+`removeKey`  Remove key for channel 'c'.
+`removeKeyAt`  Remove key at time 't' for channel 'c'.
+`revertOverride`  This function only affects link knobs that are placed on a LiveGroup node.
+`setAnimated`  Set channel 'c' to be animated.
+`setAuthorMode`  Sets the authoring mode on the knob.
+`setEnabled`  Enable or disable the knob.
+`setExpression`  Set the expression for a knob.
+`setFlag`  Logical OR of the argument and existing knob flags.
+`setLabel`
+param s
+    New label.
+`setLink`
+`setName`
+param s
+    New name.
+`setTooltip`
+param s
+    New tooltip.
+`setValue`  Set value of knob.
+`setValueAt`  Sets the value 'val' at channel 'chan' for time 'time'.
+`setVisible`  Show or hide the knob.
+`toScript`  Return the value of the knob in script syntax.
+`toScriptPrefix`  Write commands that must be executed before the to_script() value can be parsed.
+`tooltip`
+return
+    tooltip.
+`value`  Return value of knob.
+`visible`
+return
+    True if the knob is visible, False if it's hidden.
+`warning`
+param message
+    message to put a warning on the knob.
+
+Class()  Class name.
+
+Returns
+
+Class name.
+ClassID()  Class ID.
+
+Returns
+
+Class ID.
+applyOverride()  bool
+
+This function only affects link knobs that are placed on a LiveGroup node. It replaces the value of the linked knob in the live group with the value set in the LiveGroup node.
+clearAnimated()
+
+Clear animation for channel ‘c’. Return True if successful.
+clearFlag(_f_)  None.
+
+Clear flag. :param f: Flag. :return: None.
+critical(_message_)  None.
+
+Parameters
+
+**message** – message to put the knob in error, and do a popup.
+Returns
+
+None.
+debug(_message_)  None.
+
+Parameters
+
+**message** – message to put out to the error console, attached to the knob, if the verbosity level is set high enough.
+Returns
+
+None.
+enabled()  Boolean.
+
+Returns
+
+True if the knob is enabled, False if it’s disabled.
+error(_message_)  None.
+
+Parameters
+
+**message** – message to put the knob in error.
+Returns
+
+None.
+fromScript()
+
+Initialise from script.
+fullyQualifiedName(_channel =- 1_)  string
+
+Returns the fully-qualified name of the knob within the node. This can be useful for expression linking.
+Parameters
+
+**channel** – Optional parameter, specifies the channel number of the sub-knob (for example, channels of 0 and 1 would refer to the x and y of a XY_Knob respectively), leave blank or set to -1 to get the qualified name of the knob only.
+Returns
+
+The string of the qualified knob or sub-knob, which can be used directly in expression links.
+getAuthorMode()  Integer.
+
+Returns the authoring mode currently set on the knob. This is a unique string identifier of the option, which is also used for serialisation and deserialisation. It is not meant to change,thus one can rely on it. :return: The string identifier of the current authoring mode set.
+getAuthorModes()  List.
+
+Returns the names of the authoring modes of the knob if the knob is an authoring knob, otherwise an empty list. :return: The names of the authoring modes of the knob if the knob is an authoring knob, otherwise an empty list. This is a list of strings.
+getDerivative()
+
+Return derivative at time ‘t’ for channel ‘c’.
+getFlag(_f_)  Bool.
+
+Returns whether the input flag is set. :param f: Flag. :return: True if set, False otherwise.
+getIntegral()
+
+Return integral at the interval [t1, t2] for channel ‘c’.
+getKeyIndex()
+
+Return keyframe index at time ‘t’ for channel ‘c’.
+getKeyList()
+
+Get all unique keys on the knob. Returns list.
+getKeyTime()
+
+Return index of the keyframe at time ‘t’ for channel ‘c’.
+getLink()  s
+
+getLinkedKnob()  knob
+
+getNthDerivative()
+
+Return nth derivative at time ‘t’ for channel ‘c’.
+getNumKeys()
+
+Return number of keyframes for channel ‘c’.
+getValue()
+
+Return value at the current frame for channel ‘c’.
+getValueAt()
+
+Return value at time ‘t’ for channel ‘c’.
+hasExpression(_index =- 1_)  bool
+
+Return True if animation at index ‘index’ has an expression. :param index: Optional index parameter. Defaults to -1 if not specified. This can be specified as a keyword parameter if desired. :return: True if has expression, False otherwise.
+isAnimated()
+
+Return True if channel ‘c’ is animated.
+isKey()
+
+Return True if there is a keyframe at the current frame for channel ‘c’.
+isKeyAt()
+
+Return True if there is a keyframe at time ‘t’ for channel ‘c’.
+label()  label.
+
+Returns
+
+label.
+makeLink(_s_ , _t_)  None
+
+makeWidget()  PySide6.QtWidgets.QWidget.
+
+Returns an instance of the QWidget subclass used to edit the knob’s value. The widget will update the knob’s value when its value changes and should update its displayed value(s) when they change on the knob. Can return null if no widget should be created for the knob. :return: PySide6.QtWidgets.QWidget.
+name()  name.
+
+Returns
+
+name.
+node()
+
+Return the node that this knob belongs to. If the node has been cloned, we’ll always return a reference to the original. :return: The node which owns this knob, or None if the knob has no owner yet.
+notDefault()  True if any of the values is not set to the default, False otherwise.
+
+Returns
+
+True if any of the values is not set to the default, False otherwise.
+removeKey()
+
+Remove key for channel ‘c’. Return True if successful.
+removeKeyAt()
+
+Remove key at time ‘t’ for channel ‘c’. Return True if successful.
+revertOverride()  bool
+
+This function only affects link knobs that are placed on a LiveGroup node. When called the LinkKnob will revert to the linked knob value and will follow it after reloads.
+setAnimated()
+
+Set channel ‘c’ to be animated.
+setAuthorMode(_authorMode_)  None.
+
+Sets the authoring mode on the knob. This accepts both the unique string identifier, which is also used for serialisation and deserialisation, or index of the option for convenience. These values are not meant to change, thus one can rely on them. :param authorMode: The string identifier or index of the authoring mode. :return: None.
+setEnabled(_enabled_)  None.
+
+Enable or disable the knob. :param enabled: True to enable the knob, False to disable it.
+setExpression(_expression_ , _channel =- 1_, _view =None_)  bool
+
+Set the expression for a knob. You can optionally specify a channel to set the expression for.
+Parameters
+
+  * **expression** – The new expression for the knob. This should be a string.
+  * **channel** – Optional parameter, specifying the channel to set the expression for. This should be an integer.
+  * **view** – Optional view parameter. Without, this command will set the expression for the current view theinterface is displaying. Can be the name of the view or the index.
+Returns
+
+True if successful, False if not.
+setFlag(_f_)  None.
+
+Logical OR of the argument and existing knob flags. :param f: Flag. :return: None.
+setLabel(_s_)  None.
+
+Parameters
+
+**s** – New label.
+Returns
+
+None.
+setLink(_s_)  None
+
+setName(_s_)  None.
+
+Parameters
+
+**s** – New name.
+Returns
+
+None.
+setTooltip(_s_)  None.
+
+Parameters
+
+**s** – New tooltip.
+Returns
+
+None.
+setValue()  None
+
+Set value of knob.
+setValueAt(_val_ , _time_ , _chan_)  bool
+
+Sets the value ‘val’ at channel ‘chan’ for time ‘time’. :return: True if successful, False if not.
+setVisible(_visible_)  None.
+
+Show or hide the knob. :param visible: True to show the knob, False to hide it.
+toScript(_quote_ , _context =current_)  string.
+
+Return the value of the knob in script syntax. Pass True for quote to return results quoted in {}. Pass None for context to get results for all views and key times (as stored in a .nk file).
+toScriptPrefix()  string
+
+Write commands that must be executed before the to_script() value can be parsed. This is used to write commands to declare Layers and Formats and other objects that are shared by knobs.
+tooltip()  tooltip.
+
+Returns
+
+tooltip.
+value()  string
+
+Return value of knob.
+visible()  Boolean.
+
+Returns
+
+True if the knob is visible, False if it’s hidden.
+warning(_message_)  None.
+
+Parameters
+
+**message** – message to put a warning on the knob.
+Returns
+
+None.

@@ -1,0 +1,2 @@
+# nukescripts.snap3d.rotatePivotSelectionToPoints
+nukescripts.snap3d.rotatePivotSelectionToPoints(_nodeToSnap_ , _vertexSelection_)

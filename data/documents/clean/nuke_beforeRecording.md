@@ -1,0 +1,2 @@
+# nuke.beforeRecording
+nuke.beforeRecording()

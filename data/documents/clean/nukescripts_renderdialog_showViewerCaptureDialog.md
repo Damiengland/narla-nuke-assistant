@@ -1,0 +1,2 @@
+# nukescripts.renderdialog.showViewerCaptureDialog
+nukescripts.renderdialog.showViewerCaptureDialog(_node_)

@@ -1,0 +1,2 @@
+# nukescripts.translateThisNodeToPoints
+nukescripts.translateThisNodeToPoints()

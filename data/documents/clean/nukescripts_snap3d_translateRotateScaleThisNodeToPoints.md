@@ -1,0 +1,2 @@
+# nukescripts.snap3d.translateRotateScaleThisNodeToPoints
+nukescripts.snap3d.translateRotateScaleThisNodeToPoints()

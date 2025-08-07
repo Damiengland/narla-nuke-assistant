@@ -1,0 +1,2 @@
+# nukescripts.translateToPointsVerified
+nukescripts.translateToPointsVerified(_nodeToSnap_ , _vertexSelection_)

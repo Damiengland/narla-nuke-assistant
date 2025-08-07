@@ -1,0 +1,2 @@
+# nukescripts.rollingAutoSave.onAutoSaveDelete
+nukescripts.rollingAutoSave.onAutoSaveDelete(_filename_)

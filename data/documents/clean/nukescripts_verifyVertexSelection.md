@@ -1,0 +1,2 @@
+# nukescripts.verifyVertexSelection
+nukescripts.verifyVertexSelection(_vertexSelection_ , _minLen_)
